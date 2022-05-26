@@ -1,0 +1,102 @@
+.empresa-bg {
+    padding: 120px 0;
+}
+
+.empresa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.empresa-conteudo {
+    position: relative;
+    z-index: 20 !important;
+    padding: 50px 0;
+}
+
+.empresa-conteudo::before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    display: inline-block;
+    background-color: #fff1d9;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.empresa-conteudo>span {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.empresa-conteudo h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.empresa-conteudo p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.empresa-vantagens-item {
+    margin-bottom: 20px;
+}
+
+.empresa-vantagens-item i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: var(--bg-primaria);
+}
+
+.empresa-vantagens-item li {
+    padding: 10px;
+}
+
+.empresa-img {
+    align-self: center;
+}
+
+.empresa-img img {
+    width: 100%;
+}
+
+@media (max-width:1000px) {
+    .empresa-conteudo h2 {
+        font-size: 2rem;
+    }
+    .empresa-conteudo p {
+        font-size: 0.9rem;
+    }
+    .empresa-vantagens-item li {
+        padding: 10px;
+        font-size: 0.85rem;
+    }
+    .empresa-bg {
+        padding: 60px 0;
+    }
+    .empresa-conteudo {
+        padding: 20px;
+    }
+    .empresa-conteudo::before {
+        width: 100%;
+    }
+}
+
+@media (max-width:1000px) {
+    .empresa {
+        grid-template-columns: 1fr;
+    }
+    .empresa-img {
+        text-align: center;
+        display: none;
+    }
+}

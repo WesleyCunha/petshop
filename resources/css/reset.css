@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-*, *::before, *::after{
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     outline: none;
@@ -9,43 +11,51 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
-:root{
+
+:root {
     --bg-primaria: #fe8265;
     --bg-secundaria: #FAF7F2;
     --color-texto-primary: #171717
-    
 }
-html, body{
-    font-size: 100%;
-    scroll-behavior:smooth;
-    font-family: 'Poppins', sans-serif;
 
+html,
+body {
+    font-size: 100%;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
     height: 1500px;
     background: #FBFBFB;
 }
-img{
+
+img {
     max-width: 100%;
     display: block;
 }
-ul{
+
+ul {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
-.border{
+
+.border {
     border: 1px solid red;
 }
-.btn-primario{
+
+.btn-primario {
     background: var(--bg-primaria);
     color: #FFF !important;
 }
-.btn{
+
+.btn {
     display: inline-block;
     padding: 10px 18px;
     color: var(--color-texto-primary);
@@ -53,14 +63,18 @@ a{
     border-radius: 4px;
     margin-top: 10px;
 }
-.btn-secundario{
-    border:1px solid var(--bg-primaria);
+
+.btn-secundario {
+    border: 1px solid var(--bg-primaria);
 }
-::selection{
+
+::selection {
     background-color: var(--bg-primaria);
 }
-@media (max-width:400px){
-    html, body{
+
+@media (max-width:400px) {
+    html,
+    body {
         font-size: 80%;
     }
 }
