@@ -10,6 +10,7 @@
     -moz-box-sizing: border-box;
 }
 :root{
+    --bg-primaria: #fe8265;
     --bg-secundaria: #FAF7F2;
     --color-texto-primary: #171717
     
