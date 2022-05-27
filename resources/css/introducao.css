@@ -9,7 +9,6 @@
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
 .introducao-conteudo{
     align-self: center;
@@ -30,22 +29,6 @@
     width: 70%;
     margin: 0 auto;
 }
-.introducao-links a{
-    display: inline-block;
-    padding: 10px 18px;
-    color: var(--color-texto-primary);
-    margin-right: 10px;
-    border-radius: 4px;
-}
-.btn-primario{
-    background: var(--bg-primaria);
-    color: #FFF !important;
-}
-
-.btn-secundario{
-    border:1px solid var(--bg-primaria);
-}
-
 @media (max-width:1000px){
     .introducao-conteudo h1{
         font-size: 3rem;
@@ -58,7 +41,6 @@
         margin-bottom: 24px;
         color: #5b5b5b;
     }
-
 }
 @media (max-width:700px){
     .introducao{
@@ -71,5 +53,4 @@
         width: 40%;
         margin: 0 auto;
     }
-
 }

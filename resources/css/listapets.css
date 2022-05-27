@@ -1,0 +1,79 @@
+/* serviços */
+.container-servicos h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.container-servicos h2::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 5px;
+    border-radius: 4px;
+    background-color: var(--bg-primaria);
+}
+.container-servicos p{
+    text-align: center;
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 60px;
+}
+.lista-servicos{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    overflow-x: auto;
+    padding:80px 20px;
+}
+
+.lista-servicos li{
+    flex: 1;
+    background: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0 0 20px #DDD;
+    text-align: center;
+    min-width: 180px;
+    border-radius: 4px;
+}
+.lista-servicos i{
+    line-height: 50px;
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    transform: translate(0, -30px);
+    border-radius: 50%;
+    color: #FFFFFF;
+    z-index: 10px;
+    background-color: var(--bg-primaria);
+}
+.lista-servicos li:nth-child(3){
+    transform: scale(1.3);
+    background-color: var(--bg-primaria);
+}
+.lista-servicos li:nth-child(3) h3, .lista-servicos li:nth-child(3) p{
+    color: #FBFBFB;
+}
+.lista-servicos li:nth-child(3) i{
+    background-color: #FBFBFB;
+    color: var(--bg-primaria);
+}
+.lista-servicos li h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.lista-servicos li p{
+    font-size: 0.75rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+@media (max-width:600px){
+    .container-servicos h2{
+        font-size: 1.7rem;
+    }
+    .container-servicos p{
+    font-size: 0.8rem;
+    }
+}
