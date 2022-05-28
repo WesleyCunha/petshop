@@ -59,6 +59,9 @@
   .parceiros p {
     padding-bottom:0 !important;
   }
+  .parceiros ul li {
+    padding: 5px;
+  }
 }
 
 @media (max-width: 600px) {
