@@ -58,7 +58,7 @@
 }
 
 .empresa-vantagens-item li {
-    padding: 10px;
+    padding: 5px 0;
 }
 
 .empresa-img {
@@ -74,7 +74,7 @@
         font-size: 2rem;
     }
     .empresa-conteudo p {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     .empresa-vantagens-item li {
         padding: 10px;
