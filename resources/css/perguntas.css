@@ -1,0 +1,34 @@
+.perguntas-bg {
+    padding: 60px;
+}
+
+.perguntas dl>div {
+    padding: 30px;
+}
+
+.perguntas dl>div:nth-child(odd) {
+    background-color: #F7F7F7;
+}
+
+.perguntas dt {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center !important;
+}
+
+.perguntas dt::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: var(--bg-primaria);
+    margin-right: 5px;
+}
+
+.perguntas dd {
+    font-size: 0.8;
+    max-width: 80ch;
+    text-indent: 2rem;
+    font-weight: 300;
+}
