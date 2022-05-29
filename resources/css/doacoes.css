@@ -1,33 +1,39 @@
-.pet-lista-bg{
+.pet-lista-bg {
     padding: 30px 0;
     margin: 60px 0;
-    background:linear-gradient(to left, #FFFFFF 70%, #FBFBFB 0%);
+    background: linear-gradient(to left, #f7f7f7 70%, #FBFBFB 0%);
 }
-.petlista-item + .petlista-item{
+
+.petlista-item+.petlista-item {
     margin-top: 50px;
 }
-.petlista-item{
+
+.petlista-item {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
-.petlist-img img{
+
+.petlist-img img {
     width: 90%;
-    margin:  auto;
+    margin: auto;
     border-radius: 4px;
     box-shadow: 5px 5px 0 #DDD;
 }
-.petlist-conteudo{
+
+.petlist-conteudo {
     display: grid;
     grid-template-columns: 1fr auto;
     place-self: flex-start;
 }
-.petlist-conteudo h2{
+
+.petlist-conteudo h2 {
     font-size: 2.5rem;
     grid-column: 1/-1;
     margin-bottom: 15px;
 }
-.petlist-conteudo h2::before{
+
+.petlist-conteudo h2::before {
     content: "";
     display: block;
     width: 15px;
@@ -35,16 +41,18 @@
     background: gold;
     margin-left: 1px;
 }
-.petlist-conteudo p{
+
+.petlist-conteudo p {
     font-size: 1rem;
-    color:#777;
+    color: #777;
     grid-column: 1/-1;
     margin-bottom: 15px;
 }
-.petlist-conteudo a{
+
+.petlist-conteudo a {
     place-self: end;
     font-size: 1.3rem;
-    font-weight:500;
+    font-weight: 500;
     padding: 10px 16px;
     background: gold;
     border-radius: 4px;
@@ -52,7 +60,8 @@
     max-width: max-content;
     text-transform: uppercase;
 }
-.petlist-conteudo a::after{
+
+.petlist-conteudo a::after {
     content: "";
     display: inline-block;
     width: 15px;
@@ -60,41 +69,43 @@
     background: url("../img/arrowdark.svg");
     margin-left: 8px;
 }
-.petlist-conteudo ul{
+
+.petlist-conteudo ul {
     margin-top: 20px;
 }
-.petlist-conteudo li{
+
+.petlist-conteudo li {
     padding: 5px 0;
     color: #777;
 }
 
 @media (max-width:800px) {
-    .petlista-item{
+    .petlista-item {
         grid-template-columns: 1fr;
     }
-    .petlist-img img{
+    .petlist-img img {
         width: 90%;
-        margin:  auto;
+        margin: auto;
     }
-    .petlist-conteudo h2{
+    .petlist-conteudo h2 {
         font-size: 1.8rem;
     }
-    .petlist-conteudo p{
+    .petlist-conteudo p {
         font-size: 0.8rem;
     }
-    .petlist-conteudo li{
+    .petlist-conteudo li {
         font-size: 0.9rem;
     }
-    .petlist-conteudo{
+    .petlist-conteudo {
         grid-template-columns: 1fr;
     }
-    .petlist-conteudo a{
+    .petlist-conteudo a {
         place-self: flex-start;
         margin-top: 20px;
     }
-    .pet-lista-bg{
+    .pet-lista-bg {
         padding: 30px 0;
         margin: 60px 0;
-        background:#FFFFFF;
+        background: #FFFFFF;
     }
 }
