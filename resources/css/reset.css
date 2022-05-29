@@ -12,10 +12,10 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
-
+/* #fe8265 #FAF7F2;*/
 :root {
-    --bg-primaria: #fe8265;
-    --bg-secundaria: #FAF7F2;
+    --bg-primaria: green;
+    --bg-secundaria: rgba(168, 233, 209, 0.1);
     --bg-teceiro: gold;
     --color-texto-primary: #171717
 }

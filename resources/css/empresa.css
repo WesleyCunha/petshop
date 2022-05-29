@@ -20,7 +20,7 @@
     width: 200%;
     height: 100%;
     display: inline-block;
-    background-color: #fff1d9;
+    background-color: var(--bg-secundaria);
     top: 0px;
     right: 0px;
     z-index: -1;
