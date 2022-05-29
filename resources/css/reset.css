@@ -78,15 +78,15 @@ a {
 .titulo-bg{
     padding: 40px 0;
     background: var(--bg-primaria)
-    
-    
-    
-    
-    
 }
 .titulo h1{
     font-size: 3.5rem;
     font-weight: 700;
+    color: #FFF;
+}
+.titulo p{
+    color: rgba(255, 255, 255, 0.8);
+
 }
 
 @media (max-width:700px){
