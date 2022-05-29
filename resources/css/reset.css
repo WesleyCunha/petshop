@@ -14,7 +14,7 @@
 }
 /* #fe8265 #FAF7F2;*/
 :root {
-    --bg-primaria: green;
+    --bg-primaria: #1D976C;
     --bg-secundaria: rgba(168, 233, 209, 0.1);
     --bg-teceiro: gold;
     --color-texto-primary: #171717
@@ -77,11 +77,16 @@ a {
 
 .titulo-bg{
     padding: 40px 0;
-    background: #CDE06C;
+    background: var(--bg-primaria)
+    
+    
+    
+    
+    
 }
 .titulo h1{
     font-size: 3.5rem;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 @media (max-width:700px){

@@ -1,6 +1,7 @@
 .footer-bg {
-  background: var(--bg-secundaria);
+  background: var(--bg-primaria);
   padding: 50px 0 10px 0;
+  color: #FFF;
 }
 .footer {
   display: grid;
@@ -26,11 +27,11 @@
   font-size: 1.5rem;
   margin-top: 20px;
   max-width: 300px;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
   padding-top: 10px;
 }
 .footer-redes i {
-  color: #000;
+  color: #FFFFFF;
 }
 .footer-menu {
   display: flex;
@@ -41,12 +42,12 @@
 .footer-menu li {
   list-style: none;
   color: #fff !important;
-  border-bottom: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0.1);
 }
 .footer-menu li a {
   display: inline-block;
   padding: 10px !important;
-  color: #000;
+  color: #FFF;
   font-size: 0.8rem;
   transition: all 0.3s linear;
 }

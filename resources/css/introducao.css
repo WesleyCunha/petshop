@@ -70,7 +70,7 @@
     position: absolute;
     width: 0;
     height: 100%;
-    background-color: green;
+    background-color: var(--bg-primaria);
     top: 0;
     left: 0;
     transition: all .3s linear;
