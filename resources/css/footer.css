@@ -40,31 +40,33 @@
 }
 .footer-menu li {
   list-style: none;
-  border-radius: 4px;
   color: #fff !important;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #ccc;
 }
 .footer-menu li a {
-display: inline-block;
+  display: inline-block;
   padding: 10px !important;
-  color: #000; 
+  color: #000;
   font-size: 0.8rem;
+  transition: all 0.3s linear;
+}
+.footer-menu li a:hover {
+  margin-left: 10px;
 }
 .footer-copy {
   grid-column: 1 /-1;
 }
 
-
-@media (max-width:800px){
-    .footer {
-        grid-template-columns: 1fr 1fr;
-      }
-      .footer-logo{
-          grid-column: 1/-1;
-      }
+@media (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-logo {
+    grid-column: 1/-1;
+  }
 }
-@media (max-width:800px){
-    .footer {
-        grid-template-columns: 1fr;
-      }
+@media (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
 }

@@ -68,7 +68,15 @@
 .empresa-img img {
     width: 100%;
 }
-
+.empresa-conteudo a{
+    border: 1px solid transparent;
+    transition: all .3s linear;
+}
+.empresa-conteudo a:hover{
+    background: transparent;
+    border: 1px solid var(--bg-primaria) !important;
+    color: var(--bg-primaria) !important;
+}
 @media (max-width:1000px) {
     .empresa-conteudo h2 {
         font-size: 2rem;

@@ -60,7 +60,6 @@ a {
 }
 
 .btn {
-    display: inline-block;
     padding: 10px 18px;
     color: var(--color-texto-primary);
     margin-right: 10px;

@@ -29,6 +29,56 @@
     width: 70%;
     margin: 0 auto;
 }
+.introducao-links{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.introducao-links a{
+    display: flex;
+    align-items: center;
+    transition: all .3s linear;
+}
+.introducao-links a:nth-child(1)::after{
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 18px;
+    background:  url("../img/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all .3s linear;
+    opacity: 0;
+}
+.introducao-links a:nth-child(1):hover::after{
+    width: 18px;
+    transform: translateX(8px);
+    opacity: 1;
+}
+.introducao-links a:nth-child(1):hover{
+    padding-right: 25px;
+}
+.introducao-links a:nth-child(2){
+    position: relative;
+    z-index: 50;
+}
+.introducao-links a:nth-child(2):hover{
+    color: #FFFFFF;
+}
+.introducao-links a:nth-child(2)::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: green;
+    top: 0;
+    left: 0;
+    transition: all .3s linear;
+    z-index: -1;
+}
+.introducao-links a:nth-child(2):hover::after{
+    width: 100%;
+}
 @media (max-width:1000px){
     .introducao-conteudo h1{
         font-size: 3rem;
