@@ -16,7 +16,11 @@
 :root {
     --bg-primaria: #fe8265;
     --bg-secundaria: #FAF7F2;
+    --bg-teceiro: gold;
     --color-texto-primary: #171717
+}
+.gold{
+    color: var(--bg-teceiro) !important;
 }
 
 html,
