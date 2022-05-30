@@ -34,13 +34,15 @@
   padding: 20px;
   background-color: #ffffff;
   border: 1px solid #ddd;
-  box-shadow: 0 8px 8px #ddd;
+  box-shadow: 5px 5px 0px #ddd;
   display: grid;
   border-radius: 4px;
   grid-template-columns: 1fr auto;
 }
 .class-gold{
-  background: #11998e; 
+  background: var(--bg-primaria); 
+  box-shadow: none;
+  border: 0;
 }
 .class-gold li{
   color: #FFFFFF;
