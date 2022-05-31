@@ -12,9 +12,9 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
-/* #fe8265 #FAF7F2;*/
+/* #fe8265 #FAF7F2; #1D976C*/
 :root {
-    --bg-primaria: #1D976C;
+    --bg-primaria: #11998e;
     --bg-secundaria: rgba(168, 233, 209, 0.1);
     --bg-teceiro: gold;
     --color-texto-primary: #171717
