@@ -12,14 +12,18 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
+
+
 /* #fe8265 #FAF7F2; #1D976C*/
+
 :root {
     --bg-primaria: #11998e;
     --bg-secundaria: rgba(168, 233, 209, 0.1);
     --bg-teceiro: gold;
     --color-texto-primary: #171717
 }
-.gold{
+
+.gold {
     color: var(--bg-teceiro) !important;
 }
 
@@ -47,7 +51,7 @@ a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px !important;
 }
 
 .border {
@@ -75,25 +79,28 @@ a {
     background-color: var(--bg-primaria);
 }
 
-.titulo-bg{
+.titulo-bg {
     padding: 40px 0;
-    background: #11998e;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: #11998e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #38ef7d, #11998e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #38ef7d, #11998e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.titulo h1{
+
+.titulo h1 {
     font-size: 3.5rem;
     font-weight: 700;
     color: #FFF;
 }
-.titulo p{
-    color: rgba(255, 255, 255, 0.8);
 
+.titulo p {
+    color: rgba(255, 255, 255, 0.8);
 }
 
-@media (max-width:600px){
-    .titulo h1{
+@media (max-width:600px) {
+    .titulo h1 {
         font-size: 2rem;
     }
 }
