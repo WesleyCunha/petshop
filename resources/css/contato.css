@@ -1,5 +1,5 @@
 .contato-bg {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background: #11998e;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #38ef7d, #11998e);
@@ -140,6 +140,25 @@ textarea:focus {
     color: var(--bg-primaria);
 }
 
+.mapa h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 8px;
+    font-weight: 400;
+}
+
+.mapa iframe {
+    min-height: 350px;
+    /*     filter: grayscale(10); */
+    margin-bottom: 50px;
+    border-radius: 4px;
+}
+
+.mapa p {
+    margin-bottom: 8px;
+}
+
 @media (max-width:1250px) {
     .contato-conteudo h1 {
         font-size: 2.5rem;
@@ -174,6 +193,9 @@ textarea:focus {
         box-shadow: inset 0 -1000px 0 #FBFBFB;
         margin-bottom: 20px;
     }
+    .mapa iframe {
+        min-height: 300px;
+    }
 }
 
 @media (max-width:500px) {
@@ -185,5 +207,8 @@ textarea:focus {
     }
     .contato-conteudo ul {
         margin-left: 0;
+    }
+    .mapa h2 {
+        font-size: 1.8rem;
     }
 }
