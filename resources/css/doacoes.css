@@ -60,6 +60,13 @@
     max-width: max-content;
     text-transform: uppercase;
     padding: 10px 20px;
+    border: 1px solid transparent;
+    transition: all .3s linear;
+}
+
+.petlist-conteudo a:hover {
+    border: 1px solid gold;
+    background: transparent;
 }
 
 .petlist-conteudo a::after {
@@ -69,6 +76,11 @@
     height: 15px;
     background: url("../img/arrowdark.svg");
     margin-left: 8px;
+    transition: all .3s linear;
+}
+
+.petlist-conteudo a:hover::after {
+    transform: translateX(5px);
 }
 
 .petlist-conteudo ul {
