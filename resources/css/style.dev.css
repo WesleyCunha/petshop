@@ -14,20 +14,22 @@
 
 @import "termos.css";
 
-/* termos */
+/* pet */
 
-@import "doacoes.css";
+@import "pet.css";
 
-/* termos */
+/* perguntas */
+
 @import "perguntas.css";
 
+/* listapet */
 
-/* termos */
-@import "doberman.css";
+@import "listapet.css";
 
+/* contato */
 
-/* termos */
 @import "contato.css";
 
-/* termos */
-@import "orcamento.css";
+/* comprar */
+
+@import "comprar.css";
