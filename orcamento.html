@@ -44,50 +44,66 @@
                 <h1>Ficha Cadastral</h1>
             </div>
         </div>
-        <div class="orcamento-bg">
-          <form action="" class="container orcamento">
-            <div class="orcamento-conteudo">
+        <div class="tipopet-bg">
+            <form action="" class="container tipopet">
+                <div class="tipopet-conteudo">
+                    <h2>Tipo do peet</h2>
+                    <input type="radio" name="tipo" value="cachorro" id="cachorro">
+                    <label for="cachorro">Cachorro</label>
 
-                <input type="radio" name="tipo" value="comprar" id="comprar">
-                <label for="comprar">Comprar</label>
-                
-                <input type="radio" name="tipo" value="adotar" id="adotar">
-                <label for="adotar">Adotar</label>
+                    <input type="radio" name="tipo" value="gato" id="gato">
+                    <label for="gato">Gato</label>
 
-            </div>
-            <div class="orcamento-formulario form">
-                <div>
-                    <label for="">Nome:</label>
-                    <input type="text" placeholder="Seu Nome">
+                    <div class="orcamento-geral" id="orcamento-comprar">
+                        <h2>Comprar</h2>
+                        <input type="radio" name="produto" value="cachorro" id="comprarcachorro">
+                        <label for="comprarcachorro">comprar</label>
+                        <div class="">ola</div>
+                        <input type="radio" name="produto" value="cacshorro" id="comprarcachorrso">
+                        <label for="comprarcachorrso">comprar</label>
+                        <div>teste</div>
+                    </div>
+
+                    <div class="orcamento-geral" id="orcamento-adotar">
+                        <h2>Adotar</h2>
+                        <input type="radio" name="produto" value="cachorro" id="adotarcachorro">
+                        <label for="adotarcachorro">adotar</label>
+                    </div>
+
                 </div>
-                <div>
-                    <label for="">Telefone:</label>
-                    <input type="tel" placeholder="Seu Telefone">
+                <div class="tipopet-formulario form">
+                    <div>
+                        <label for="">Nome:</label>
+                        <input type="text" placeholder="Seu Nome">
+                    </div>
+                    <div>
+                        <label for="">Telefone:</label>
+                        <input type="tel" placeholder="Seu Telefone">
+                    </div>
+                    <div class="col-100">
+                        <label for="">E-mail:</label>
+                        <input type="email" placeholder="Seu E-mail">
+                    </div>
+                    <div class="col-100">
+                        <label for="">CPF:</label>
+                        <input type="text" placeholder="Seu CPF">
+                    </div>
+                    <div>
+                        <label for="">Cidade:</label>
+                        <input type="text" placeholder="Sua Cidade">
+                    </div>
+                    <div>
+                        <label for="">Estado:</label>
+                        <input type="text" placeholder="Seu Estado">
+                    </div>
+                    <div class="col-100">
+                        <label for="menssagem">Menssagem:</label>
+                        <textarea rows="10" id="menssagem" placeholder="Seu assunto"></textarea>
+                    </div>
+                    <button class="col-100">Enviar menssagem</button>
                 </div>
-                <div class="col-100">
-                    <label for="">E-mail:</label>
-                    <input type="email" placeholder="Seu E-mail">
-                </div>
-                <div class="col-100">
-                    <label for="">CPF:</label>
-                    <input type="text" placeholder="Seu CPF">
-                </div>
-                <div>
-                    <label for="">Cidade:</label>
-                    <input type="text" placeholder="Sua Cidade">
-                </div>
-                <div>
-                    <label for="">Estado:</label>
-                    <input type="text" placeholder="Seu Estdo">
-                </div>
-                <div class="col-100">
-                    <label for="menssagem">Menssagem:</label>
-                    <textarea rows="10" id="menssagem" placeholder="Seu assunto"></textarea>
-                </div>
-                <button class="col-100">Enviar menssagem</button>
-            </div>
-          </form>
-    </div>
+            </form>
+        </div>
     </main>
     <footer class="footer-bg">
         <div class="container footer">
