@@ -1,0 +1,36 @@
+.orcamento-bg{
+    background: #11998e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #38ef7d, #11998e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #38ef7d, #11998e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: inset 0 -450px 0 #FBFBFB;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.orcamento{
+    display: grid;
+    grid-template-columns: 1.3fr 2fr;
+    background: #FFF;
+    border-radius: 4px;
+    padding: 0 !important;
+}
+.orcamento-conteudo{
+    background: gold;
+    border-radius: 4px 0 0 4px;
+    padding: 20px;
+}
+.orcamento-formulario{
+    border-radius: 0 4px 4px 0;
+    padding: 20px;
+}
+
+.orcamento-conteudo label{
+    padding: 20px;
+    background: red;
+}
+
+.orcamento-conteudo input:checked + label{
+    background-color: green;
+}
